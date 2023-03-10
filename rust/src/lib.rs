@@ -4,7 +4,10 @@
 // terms governing use, modification, and redistribution, is contained in the
 // file LICENSE at the root of the source code distribution tree.
 
-pub mod move_parser;
+extern crate core;
+
 pub mod memory;
-pub mod starknet;
+pub mod hash;
 pub mod encoding;
+pub mod move_parser;
+pub mod starknet;

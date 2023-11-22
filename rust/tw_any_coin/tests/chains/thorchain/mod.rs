@@ -5,7 +5,6 @@
 // file LICENSE at the root of the source code distribution tree.
 
 mod test_cases;
+mod thorchain_address;
 mod thorchain_compile;
 mod thorchain_sign;
-
-const THORCHAIN_COIN_TYPE: u32 = 931;

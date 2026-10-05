@@ -1,4 +1,4 @@
-FROM ubuntu:18.04
+FROM ubuntu:25.10
 
 # Install some basics
 RUN apt-get update \
